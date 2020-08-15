@@ -1,0 +1,107 @@
+body, html{
+    background-image:url(DCImages/237702.jpg);
+    background-repeat: no-repeat;
+    position: fixed;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+
+}
+.container{
+    position: absolute;
+    top: 20%;
+    left:30%;
+
+}
+table{
+    width: 600px;
+    border-collapse:collapse;
+    overflow: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+th,td{
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* color:#ffff; */
+}
+th{
+    background-color: rgb(240, 234, 202);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+tbody td{
+    position: relative;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 15px;
+
+}
+tbody tr:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+tbody td:hover:before{
+    content:"";
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* top:-9999px;
+    bottom: -9999px; */
+    background-color: rgba(205, 129, 172, 0.2);
+    z-index: -1;
+}
+body{
+    background-image: url(DCImages/Educationimg.jpg);
+   
+    height: 100%;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    }
+
+.sidenav{
+    background-image: url(DCImages/images1.jpg);
+    background-repeat: no-repeat;
+    display: none;
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow: hidden;
+    padding-top: 60px;
+
+}
+span{
+    color:white;
+}
+.sidenav a{
+    padding: 25px 22px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: gray;
+    display: block;
+
+}
+.sidenav a:hover{
+    color: black;
+}
+.sidenav .closebtn{
+    position: absolute;
+    color: black;
+    top: 0px;
+    right:20px;
+    font-size: 40px;
+    margin-left: 50px;
+
+
+}
+img{
+    width: 85%;
+    height: 35%;
+    padding-top: 0%;
+    padding-left: 6%;
+}

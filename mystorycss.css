@@ -1,0 +1,48 @@
+body{
+   background-color: gray;
+}
+.sidenav{
+    background-image: url(DCImages/images1.jpg);
+    background-repeat: no-repeat;
+    display: none;
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow: hidden;
+    padding-top: 60px;
+
+}
+span{
+    color:black;
+}
+.sidenav a{
+    padding: 25px 22px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: gray;
+    display: block;
+
+}
+.sidenav a:hover{
+    color: black;
+}
+.sidenav .closebtn{
+    position: absolute;
+    color: black;
+    top: 0px;
+    right:20px;
+    font-size: 40px;
+    margin-left: 50px;
+
+
+}
+img{
+    width: 85%;
+    height: 35%;
+    padding-top: 0%;
+    padding-left: 6%;
+}

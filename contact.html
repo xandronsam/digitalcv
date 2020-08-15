@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contactcss.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Savage Photography</title>
+</head>
+<body>
+    <div id="hamburger" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+        <a href="digitalcv.html">Home</a>
+        <a href="mystory.html">Mystory</a>
+        <a href="career.html">Career</a>
+        <a href="education.html">Education</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <img  alt="logo"src="DCImages/Cyclist's Chain.png">
+    
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> 
+      <script>
+        function openNav(){
+          document.getElementById("hamburger").style.display='block';
+    
+        }
+        function closeNav(){
+            document.getElementById("hamburger").style.display="none";
+    
+        }
+      </script>
+   <h1>Get In Touch</h1>
+   <form action="/my-handing_form_page" method="post">
+     <div>
+       <label for="name">Name:</label>
+       <input type="text"id="name"name="user_name">
+     </div>
+      <div>
+        <label for="email">Email:</label>
+         <input type="email"id="email"name="user_email"> 
+      </div>
+      <div>
+        <label for="msg">Message:</label>
+        <textarea name="user_message" id="msg"></textarea>
+      </div>
+      <div class="button" align="center">
+        <a class ="button1"href="Digital CV .html"target="_blank"rel="index">Send</a>
+      </div>
+  
+  
+  </form>
+
+
+</body>
+</html>
